@@ -27,15 +27,42 @@ function Dashboard() {
       {/* Tarjeta contenedora principal blanca */}
       <div className="cards-container-wrapper">
         <div className="cards-grid">
-          {servicios.map((item) => (
-            <Card
-              key={item.id}
-              titulo={item.titulo}
-              descripcion={item.descripcion}
-              categoria={item.categoria}
-              destacado={item.destacado}
-            />
-          ))}
+          <Card
+            titulo={servicios[0].titulo}
+            descripcion={servicios[0].descripcion}
+            categoria={servicios[0].categoria}
+            destacado={servicios[0].destacado}
+          />
+          <Card
+            titulo={servicios[1].titulo}
+            descripcion={servicios[1].descripcion}
+            categoria={servicios[1].categoria}
+            destacado={servicios[1].destacado}
+          />
+          <Card
+            titulo={servicios[2].titulo}
+            descripcion={servicios[2].descripcion}
+            categoria={servicios[2].categoria}
+            destacado={servicios[2].destacado}
+          />
+          <Card
+            titulo={servicios[3].titulo}
+            descripcion={servicios[3].descripcion}
+            categoria={servicios[3].categoria}
+            destacado={servicios[3].destacado}
+          />
+          <Card
+            titulo={servicios[4].titulo}
+            descripcion={servicios[4].descripcion}
+            categoria={servicios[4].categoria}
+            destacado={servicios[4].destacado}
+          />
+          <Card
+            titulo={servicios[5].titulo}
+            descripcion={servicios[5].descripcion}
+            categoria={servicios[5].categoria}
+            destacado={servicios[5].destacado}
+          />
         </div>
       </div>
     </main>
